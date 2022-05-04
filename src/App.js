@@ -16,7 +16,7 @@ function App() {
       {/* <HookCounter /> */}
 
       {/*---------- useState with previous state */}
-      <HookCounterTwo />
+      {/* <HookCounterTwo /> */}
       {/* <ClassCounterTwo /> */}
 
       {/*---------- useState with object */}
