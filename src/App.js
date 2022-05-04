@@ -8,6 +8,8 @@ import ClassCounterTwo from "./components/ClassCounterTwo";
 
 import HookCounterThree from "./components/HookCounterThree";
 
+import HookCounterFour from "./components/HookCounterFour";
+
 function App() {
   return (
     <div className="App">
@@ -20,7 +22,10 @@ function App() {
       {/* <ClassCounterTwo /> */}
 
       {/*---------- useState with object */}
-      <HookCounterThree/>
+      {/* <HookCounterThree /> */}
+
+      {/*---------- useState with array */}
+      <HookCounterFour/>
     </div>
   );
 }
